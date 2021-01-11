@@ -59,10 +59,10 @@
   integrity sha512-TYiuOxy5Pf9ORn94X/ujl7PY9opIh+l6NzRAV8EBLpIv3IC9gmEoev4wmmyP7Q33J0/nGjqxAaZcq/n2SZrYaQ==
 
 "@auto-it/bot-list@link:packages/bot-list":
-  version "10.5.0"
+  version "10.5.1"
 
 "@auto-it/core@link:packages/core":
-  version "10.5.0"
+  version "10.5.1"
   dependencies:
     "@auto-it/bot-list" "link:packages/bot-list"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
@@ -102,7 +102,7 @@
     url-join "^4.0.0"
 
 "@auto-it/npm@link:plugins/npm":
-  version "10.5.0"
+  version "10.5.1"
   dependencies:
     "@auto-it/core" "link:packages/core"
     "@auto-it/package-json-utils" "link:packages/package-json-utils"
@@ -119,13 +119,13 @@
     user-home "^2.0.0"
 
 "@auto-it/package-json-utils@link:packages/package-json-utils":
-  version "10.5.0"
+  version "10.5.1"
   dependencies:
     parse-author "^2.0.0"
     parse-github-url "1.0.2"
 
 "@auto-it/released@link:plugins/released":
-  version "10.5.0"
+  version "10.5.1"
   dependencies:
     "@auto-it/bot-list" "link:packages/bot-list"
     "@auto-it/core" "link:packages/core"
@@ -135,7 +135,7 @@
     tslib "2.0.3"
 
 "@auto-it/slack@link:plugins/slack":
-  version "10.5.0"
+  version "10.5.1"
   dependencies:
     "@atomist/slack-messages" "~1.2.0"
     "@auto-it/core" "link:packages/core"
@@ -3250,10 +3250,10 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@>= 8", "@types/node@^13.1.8":
-  version "13.13.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.4.tgz#1581d6c16e3d4803eb079c87d4ac893ee7501c2c"
-  integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
+"@types/node@*", "@types/node@>= 8", "@types/node@^14.14.20":
+  version "14.14.20"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.20.tgz#f7974863edd21d1f8a494a73e8e2b3658615c340"
+  integrity sha512-Y93R97Ouif9JEOWPIUyU+eyIdyRqQR0I8Ez1dzku4hDx34NWh4HbtIc3WNzwB1Y9ULvNGeu5B8h8bVL5cAk4/A==
 
 "@types/normalize-package-data@*", "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
